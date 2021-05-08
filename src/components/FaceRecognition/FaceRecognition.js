@@ -6,7 +6,7 @@ const FaceRecognition = ({ imageUrl, box }) => {
   return (
     <div className="center ma">
       <div className="absolute mt2">
-        <Tilt className="Tilt" options={{ max: 25 }} style={{ width: "500px" }}>
+        <Tilt className="Tilt" options={{ max: 15 }} style={{ width: "500px" }}>
           <div className="Tilt-inner">
             <img
               id="input-image"

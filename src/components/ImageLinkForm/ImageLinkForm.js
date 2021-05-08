@@ -4,14 +4,16 @@ import "./ImageLinkForm.css";
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
-      <p className="f3 ma2 near-black">
-        {"This Face Recognition App will detect faces in your pictures."}
+      <p className="description ma2 mb4 near-black">
+        {
+          "This Face Recognition App will detect faces in your pictures. Give it a try!"
+        }
       </p>
-      <p className="f3 ma2 mb4">{"Give it a try!"}</p>
+      <p className="f3 ma2 mb4">{}</p>
       <div className="flex justify-center">
-        <div className="form flex justify-center pa3 br3 shadow-s">
+        <div className="form flex justify-center pa4 br3 shadow-5">
           <input
-            className="input f4 pa2 w-70 flex justify-center ba b--purple"
+            className="input f4 pa2 w-80 flex justify-center b--none"
             type="text"
             onChange={onInputChange}
             placeholder="Paste image URL here"
