@@ -4,4 +4,4 @@ Built with ```React```, ```Node.js```, ```Express.js``` and ```PostgreSQL```. Th
 
 This is a frontend part, backend part repo is available [here](https://github.com/hzndr/face-recognition-app-api).
 
-#### Deployed on Heroku [Demo](https://face-recognition-app123.herokuapp.com/) 
+### Deployed on Heroku [Demo](https://face-recognition-app123.herokuapp.com/) 
